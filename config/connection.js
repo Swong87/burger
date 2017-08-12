@@ -1,6 +1,6 @@
 // Set up MySQL connection.
 var mysql = require("mysql");
-var myPassword = require("../myPassword.js");
+// var myPassword = require("../myPassword.js");
 
 var connection;
 
@@ -11,7 +11,7 @@ if (process.env.JAWSDB_URL) {
     port: 3306,
     host: "localhost",
     user: "root",
-    password: myPassword,
+    password: "14551878SW!",
     database: "burgers_db"
   });
 };
